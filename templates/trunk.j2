@@ -1,0 +1,19 @@
+{%  if host.vars.pairings %}
+{%  for pair in host.vars.pairings %}
+vlan {{ pair[0].lstrip() }}
+name {{ pair[1].lstrip() }}
+{% endfor %}
+{%  endif %}
+
+{%  if host.vars.vlans %}
+{% for interface, config in host.vars.interfaces.items() %}
+{%  if config['mode'] == 'trunk' %}
+interface {{interface}}
+switchport trunk encapsulation {{ config['encapsulation'] }}
+switchport trunk allowed vlan add {{ ','.join(host.vars.vlans).replace(' ','') }}
+{% endif %}
+{% endfor %}
+{% endif %}
+
+
+

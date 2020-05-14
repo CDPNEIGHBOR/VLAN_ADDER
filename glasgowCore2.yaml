@@ -1,0 +1,9 @@
+host_name: glasgowCore2
+mgmt_intf: vlan 10
+mgmt_subnet: 255.255.255.0
+mgmt_ip: 10.10.0.2
+interfaces:
+    gig0/0:
+        mode: access
+        encapsulation: dot1q
+        state: no shutdown

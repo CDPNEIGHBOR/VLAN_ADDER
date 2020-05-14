@@ -1,0 +1,182 @@
+
+---
+glasgowCore1:
+    hostname: 192.168.195.10
+    username: 'stephen'
+    password: 'cisco'
+    groups:
+        - cisco_group
+        - glasgownet
+        - core
+    data:
+        host_name: 'glasgowCore1'
+        mgmt_intf: vlan 10
+        mgmt_ip: 10.10.0.1
+        mgmt_subnet: 255.255.255.0
+
+glasgowCore2:
+    hostname: 192.168.195.11
+    username: 'stephen'
+    password: 'cisco'
+    groups:
+        - cisco_group
+        - glasgownet
+        - core
+    data:
+        host_name: 'glasgowCore2'
+
+
+glasgowDistro1:
+    hostname: 192.168.195.12
+    username: 'stephen'
+    password: 'cisco'
+    groups:
+        - cisco_group
+        - glasgownet
+        - distro
+    data:
+        host_name: 'glasgowDistro1'
+
+glasgowDistro2:
+    hostname: 192.168.195.13
+    username: 'stephen'
+    password: 'cisco'
+    groups:
+        - cisco_group
+        - glasgownet
+        - distro
+    data:
+        host_name: 'glasgowDistro2'
+
+glasgowAccess1:
+    hostname: 192.168.195.14
+    username: 'stephen'
+    password: 'cisco'
+    groups:
+        - cisco_group
+        - glasgownet
+        - access
+    data:
+        host_name: 'glasgowAccess1'
+
+
+glasgowAccess2:
+    hostname: 192.168.195.15
+    username: 'stephen'
+    password: 'cisco'
+    groups:
+        - cisco_group
+        - glasgownet
+        - access
+    data:
+        host_name: 'glasgowAccess2'
+
+glasgowAccess3:
+    hostname: 192.168.195.16
+    username: 'stephen'
+    password: 'cisco'
+    groups:
+        - cisco_group
+        - glasgownet
+        - access
+    data:
+        host_name: 'glasgowAccess3'
+
+glasgowAccess4:
+    hostname: 192.168.195.17
+    username: 'stephen'
+    password: 'cisco'
+    groups:
+        - cisco_group
+        - glasgownet
+        - access
+    data:
+        host_name: 'glasgowAccess4'
+
+edinCore1:
+    hostname: 192.168.195.20
+    username: 'stephen'
+    password: 'cisco'
+    groups:
+        - cisco_group
+        - edinnet
+        - core
+    data:
+        host_name: 'edinCore1'
+
+edinCore2:
+    hostname: 192.168.195.21
+    username: 'stephen'
+    password: 'cisco'
+    groups:
+        - cisco_group
+        - edinnet
+        - core
+    data:
+        host_name: 'edinCore2'
+
+edinDistro1:
+    hostname: 192.168.195.22
+    username: 'stephen'
+    password: 'cisco'
+    groups:
+        - cisco_group
+        - edinnet
+        - distro
+    data:
+        host_name: 'edinDistro1'
+
+edinDistro2:
+    hostname: 192.168.195.23
+    username: 'stephen'
+    password: 'cisco'
+    groups:
+        - cisco_group
+        - edinnet
+        - distro
+    data:
+        host_name: 'edinDistro2'
+
+edinAccess1:
+    hostname: 192.168.195.24
+    username: 'stephen'
+    password: 'cisco'
+    groups:
+        - cisco_group
+        - edinnet
+        - access
+    data:
+        host_name: 'edinAccess1'
+
+edinAccess2:
+    hostname: 192.168.195.25
+    username: 'stephen'
+    password: 'cisco'
+    groups:
+        - cisco_group
+        - edinnet
+        - access
+    data:
+        host_name: 'edinAccess2'
+
+edinAccess3:
+    hostname: 192.168.195.26
+    username: 'stephen'
+    password: 'cisco'
+    groups:
+        - cisco_group
+        - edinnet
+        - access
+    data:
+        host_name: 'edinAccess3'
+
+edinAccess4:
+    hostname: 192.168.195.27
+    username: 'stephen'
+    password: 'cisco'
+    groups:
+        - cisco_group
+        - edinnet
+        - access
+    data:
+        host_name: 'edinAccess4'

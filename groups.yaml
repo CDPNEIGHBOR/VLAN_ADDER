@@ -1,0 +1,22 @@
+
+---
+
+cisco_group:
+    platform: 'ios'
+
+core:
+    platform: 'ios'
+
+access:
+    platform: 'ios'
+
+distro:
+    platform: 'ios'
+
+glasgownet:
+    platform: 'ios'
+
+edinnet:
+    platform: 'ios'
+
+

@@ -1,0 +1,17 @@
+host_name: glasgowCore1
+mgmt_intf: vlan 10
+mgmt_subnet: 255.255.255.0
+mgmt_ip: 10.10.0.1
+interfaces:
+    gig0/0:
+        mode: access
+        encapsulation: dot1q
+        state: no shutdown
+    gig0/1:
+        mode: trunk
+        encapsulation: dot1q
+        state: no shutdown
+    gig0/3:
+        mode: trunk
+        encapsulation: dot1q
+        state: no shutdown

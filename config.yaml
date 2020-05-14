@@ -1,0 +1,12 @@
+
+---
+core:
+    num_workers: 100
+
+inventory:
+    plugin: nornir.plugins.inventory.simple.SimpleInventory
+    options:
+        host_file: "/mnt/c/Users/Stephen Hendry/PyCharmProjects/nornir/vlan_adder/hosts.yaml"
+        group_file: "/mnt/c/Users/Stephen Hendry/PyCharmProjects/nornir/vlan_adder/groups.yaml"
+        defaults_file: "/mnt/c/Users/Stephen Hendry/PyCharmProjects/nornir/vlan_adder/defaults.yaml"
+
