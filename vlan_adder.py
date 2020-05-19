@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from nornir import InitNornir
 from nornir.plugins.tasks.data import load_yaml
 from nornir.plugins.tasks.text import template_file
